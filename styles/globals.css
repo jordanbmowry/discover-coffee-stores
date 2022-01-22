@@ -1,3 +1,9 @@
+:root {
+  --soft-black-color: #181a18;
+  --soft-black-hover: #272727;
+  --white-color: #f1f1f1;
+}
+
 html,
 body {
   padding: 0;
