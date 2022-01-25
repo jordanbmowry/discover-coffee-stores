@@ -5,10 +5,9 @@ import styles from './Card.module.css';
 import clsx from 'clsx';
 
 export default function Card(props) {
-  console.log(styles);
   return (
     <Link href={props.href}>
-      <a className={styles.cardLink}>
+      <a href={props.href} className={styles.cardLink}>
         <div className={clsx('glass', styles.container)}>
           <div className={styles.cardHeaderWrapper}>
             <h2 className={styles.cardHeader}>{props.name}</h2>
